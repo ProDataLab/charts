@@ -31,7 +31,7 @@ controller:
   ## Ref: https://kubernetes.io/docs/user-guide/node-selection/
   ##
   nodeSelector: {}
-
+    role: load-balancer
   ## Annotations to be added to controller pods
   ##
   podAnnotations: {}
